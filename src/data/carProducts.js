@@ -1,8 +1,8 @@
 import dashcamImg from "../assets/images/car/dashcam1.jpeg";
-import tyreInflatorImg from "../assets/images/car/tyre inflator1.jpeg";
-import firstAidImg from "../assets/images/car/first aid kit.jpeg";
-import jumperCablesImg from "../assets/images/car/jumper cables1.jpeg";
-import puncherKitImg from "../assets/images/car/puncher kit1.jpeg";
+import tyreInflatorImg from "../assets/images/car/tyre-inflator1.jpeg";
+import firstAidImg from "../assets/images/car/first-aid-kit.jpeg";
+import jumperCablesImg from "../assets/images/car/jumper-cables1.jpeg";
+import puncherKitImg from "../assets/images/car/puncher-kit1.jpeg";
 
 export const carProducts = [
     {
@@ -18,7 +18,7 @@ export const carProducts = [
       type: "car-parts",
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
       compatibleModels: ["All Models"],
-      compatibleYears: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+      compatibleYears: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020,2021,2022,2023,2024]
     },
     {
       id: 102,
