@@ -1,9 +1,9 @@
 import helmetImg from "../assets/images/bike/helmet1-men.jpeg";
-import jacketImg from "../assets/images/bike/riding gear1.jpeg";
+import jacketImg from "../assets/images/bike/riding-gear1.jpeg";
 import glovesImg from "../assets/images/bike/gloves1.jpeg";
-import HolderImg from "../assets/images/bike/phone holder.jpeg";
-import USBChargerImg from "../assets/images/bike/usb Charger.jpeg";
-import PhonemountImg from "../assets/images/bike/phone mount.jpeg";
+import HolderImg from "../assets/images/bike/phone-holder.jpeg";
+import USBChargerImg from "../assets/images/bike/usb-Charger.jpeg";
+import PhonemountImg from "../assets/images/bike/phone-mount.jpeg";
 
 export const bikeProducts = [
     {
