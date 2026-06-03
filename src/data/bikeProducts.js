@@ -240,7 +240,7 @@ export const bikeProducts = [
       category: "Maintenance & Tools",
       subcategory: "Pumps",
       brand: "AirPro",
-      image: "/src/assets/images/bike/pumps.jpeg",
+      image: "/src/assets/images/bike/pumps.png",
       rating: 4.8,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
