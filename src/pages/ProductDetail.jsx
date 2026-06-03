@@ -16,7 +16,9 @@ const ProductDetail = () => {
   const [isWishlisted, setIsWishlisted] = useState(false);
 
   const products = type === 'ride' ? bikeProducts : carProducts;
-  const product = products.find(p => p.id === parseInt(id));
+  const product = products.find(
+  p => String(p.id) === String(id)
+);
 
   if (!product) {
     return <div className="pt-24 text-center text-2xl text-zinc-400">Product not found</div>;
