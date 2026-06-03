@@ -3,7 +3,21 @@ import tyreInflatorImg from "../assets/images/car/tyre-inflator1.jpeg";
 import firstAidImg from "../assets/images/car/first-aid-kit.jpeg";
 import jumperCablesImg from "../assets/images/car/jumper-cables1.jpeg";
 import puncherKitImg from "../assets/images/car/puncher-kit1.jpeg";
-
+import dualCamImg from "../assets/images/car/dualcam.jpeg";
+import phoneHolderImg from "../assets/images/car/phoneholders.jpeg";
+import airPurifierImg from "../assets/images/car/airpurifiers.jpeg";
+import chargerImg from "../assets/images/car/charger.jpeg";
+import steeringCoverImg from "../assets/images/car/steeringcover.jpeg";
+import seatCushionImg from "../assets/images/car/seatcushion.jpeg";
+import floorMatsImg from "../assets/images/car/floormats.jpeg";
+import sunshadesImg from "../assets/images/car/sunshades.jpeg";
+import bodyMoldingImg from "../assets/images/car/bodymolding.jpeg";
+import doorGuardsImg from "../assets/images/car/doorguards.jpeg";
+import paintProtectionImg from "../assets/images/car/paintprotection.jpeg";
+import washSoapImg from "../assets/images/car/washsoap.jpeg";
+import brushImg from "../assets/images/car/brush.jpeg";
+import waxImg from "../assets/images/car/wax.jpeg";
+import restoreKitImg from "../assets/images/car/restorekit.jpeg";
 export const carProducts = [
     {
       id: 101,
@@ -27,7 +41,7 @@ export const carProducts = [
       category: "Safety & Emergency",
       subcategory: "Dashcams",
       brand: "DriveGuard",
-      image: "/src/assets/images/car/dualcam.jpeg",
+      image: dualCamImg,
       rating: 4.8,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -97,7 +111,7 @@ export const carProducts = [
       category: "Gadgets & Electronics",
       subcategory: "Phone Holders",
       brand: "MountPro",
-      image: "/src/assets/images/car/phoneholders.jpeg",
+      image: phoneHolderImg,
       rating: 4.7,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -111,7 +125,7 @@ export const carProducts = [
       category: "Gadgets & Electronics",
       subcategory: "Air Purifiers",
       brand: "FreshAir",
-      image: "/src/assets/images/car/airpurifiers.jpeg",
+      image: airPurifierImg,
       rating: 4.8,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -125,7 +139,7 @@ export const carProducts = [
       category: "Gadgets & Electronics",
       subcategory: "Chargers",
       brand: "ChargeFast",
-      image: "/src/assets/images/car/charger.jpeg",
+      image: chargerImg,
       rating: 4.6,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -139,7 +153,7 @@ export const carProducts = [
       category: "Comfort & Convenience",
       subcategory: "Steering Wheel Covers",
       brand: "ComfortDrive",
-      image: "/src/assets/images/car/steeringcover.jpeg",
+      image: steeringCoverImg,
       rating: 4.7,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -153,7 +167,7 @@ export const carProducts = [
       category: "Comfort & Convenience",
       subcategory: "Seat Cushions",
       brand: "SoftComfort",
-      image: "/src/assets/images/car/seatcushion.jpeg",
+      image: seatCushionImg,
       rating: 4.8,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -167,7 +181,7 @@ export const carProducts = [
       category: "Comfort & Convenience",
       subcategory: "Floor Mats",
       brand: "FloorGuard",
-      image: "/src/assets/images/car/floormats.jpeg",
+      image: floorMatsImg,
       rating: 4.7,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -181,7 +195,7 @@ export const carProducts = [
       category: "Comfort & Convenience",
       subcategory: "Sunshades",
       brand: "SunBlock",
-      image: "/src/assets/images/car/sunshades.jpeg",
+      image: sunshadesImg,
       rating: 4.6,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -195,7 +209,7 @@ export const carProducts = [
       category: "Exterior & Protection",
       subcategory: "Body Molding",
       brand: "BodyShield",
-      image: "/src/assets/images/car/bodymolding.jpeg",
+      image: bodyMoldingImg,
       rating: 4.8,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -209,7 +223,7 @@ export const carProducts = [
       category: "Exterior & Protection",
       subcategory: "Door Guards",
       brand: "EdgeProtect",
-      image: "/src/assets/images/car/doorguards.jpeg",
+      image: doorGuardsImg,
       rating: 4.7,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -223,7 +237,7 @@ export const carProducts = [
       category: "Exterior & Protection",
       subcategory: "Paint Protection",
       brand: "PaintGuard",
-      image: "/src/assets/images/car/paintprotection.jpeg",
+      image: paintProtectionImg,
       rating: 4.9,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -237,7 +251,7 @@ export const carProducts = [
       category: "Cleaning & Care",
       subcategory: "Wash Soap",
       brand: "ShineMax",
-      image: "/src/assets/images/car/washsoap.jpeg",
+      image: washSoapImg,
       rating: 4.7,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -251,7 +265,7 @@ export const carProducts = [
       category: "Cleaning & Care",
       subcategory: "Detailing Brushes",
       brand: "DetailPro",
-      image: "/src/assets/images/car/brush.jpeg",
+      image: brushImg,
       rating: 4.6,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -265,7 +279,7 @@ export const carProducts = [
       category: "Cleaning & Care",
       subcategory: "Wax & Polish",
       brand: "GlossShine",
-      image: "/src/assets/images/car/wax.jpeg",
+      image: waxImg,
       rating: 4.8,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],
@@ -279,7 +293,7 @@ export const carProducts = [
       category: "Cleaning & Care",
       subcategory: "Restoration Kits",
       brand: "BrightRestore",
-      image: "/src/assets/images/car/restorekit.jpeg",
+      image: restoreKitImg,
       rating: 4.7,
       inStock: true,
       compatibleBrands: ["Toyota", "Honda", "Maruti", "Hyundai", "Mahindra", "Tata", "BMW", "Audi"],

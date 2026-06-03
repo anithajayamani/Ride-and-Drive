@@ -4,6 +4,19 @@ import glovesImg from "../assets/images/bike/gloves1.jpeg";
 import HolderImg from "../assets/images/bike/phone-holder.jpeg";
 import USBChargerImg from "../assets/images/bike/usb-charger.jpeg";
 import PhonemountImg from "../assets/images/bike/phone-mount.jpeg";
+import crashGuardsImg from "../assets/images/bike/crashguards.jpeg";
+import ledLightsImg from "../assets/images/bike/ledlights.jpeg";
+import luggageSystemImg from "../assets/images/bike/luggagesystem.jpeg";
+import headlightsImg from "../assets/images/bike/headlights.jpeg";
+import bellImg from "../assets/images/bike/bell.jpeg";
+import mirrorImg from "../assets/images/bike/mirror.jpeg";
+import bottleHolderImg from "../assets/images/bike/bottleholders.jpeg";
+import lockImg from "../assets/images/bike/lock.jpeg";
+import mudguardsImg from "../assets/images/bike/mudguards.jpeg";
+import rackImg from "../assets/images/bike/rags.jpeg";
+import pumpImg from "../assets/images/bike/pumps.png";
+import repairKitImg from "../assets/images/bike/repairkit.jpeg";
+import lubricantImg from "../assets/images/bike/lubricant.jpeg";
 
 export const bikeProducts = [
     {
@@ -86,7 +99,7 @@ export const bikeProducts = [
       category: "Exterior & Protection",
       subcategory: "Crash Guards",
       brand: "ArmorTech",
-      image: "/src/assets/images/bike/crashguards.jpeg",
+      image: crashGuardsImg,
       rating: 4.9,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
@@ -100,7 +113,7 @@ export const bikeProducts = [
       category: "Lights & Visibility",
       subcategory: "LED Lights",
       brand: "BrightLED",
-      image: "/src/assets/images/bike/ledlights.jpeg",
+      image: ledLightsImg,
       rating: 4.8,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
@@ -114,7 +127,7 @@ export const bikeProducts = [
       category: "Storage & Carrying",
       subcategory: "Luggage Systems",
       brand: "CargoMax",
-      image: "/src/assets/images/bike/luggagesystem.jpeg",
+      image: luggageSystemImg,
       rating: 4.7,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
@@ -128,7 +141,7 @@ export const bikeProducts = [
       category: "Lights & Visibility",
       subcategory: "Headlights",
       brand: "LightPro",
-      image: "/src/assets/images/bike/headlights.jpeg",
+      image: headlightsImg,
       rating: 4.8,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
@@ -142,7 +155,7 @@ export const bikeProducts = [
       category: "Safety & Protection",
       subcategory: "Bells & Horns",
       brand: "SoundAlert",
-      image: "/src/assets/images/bike/bell.jpeg",
+      image: bellImg,
       rating: 4.6,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
@@ -156,7 +169,7 @@ export const bikeProducts = [
       category: "Lights & Visibility",
       subcategory: "Mirrors",
       brand: "MirrorPro",
-      image: "/src/assets/images/bike/mirror.jpeg",
+      image: mirrorImg,
       rating: 4.7,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
@@ -170,7 +183,7 @@ export const bikeProducts = [
       category: "Comfort & Convenience",
       subcategory: "Bottle Holders",
       brand: "HydroFit",
-      image: "/src/assets/images/bike/bottleholders.jpeg",
+      image: bottleHolderImg,
       rating: 4.6,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
@@ -184,7 +197,7 @@ export const bikeProducts = [
       category: "Security",
       subcategory: "Locks",
       brand: "SecureGuard",
-      image: "/src/assets/images/bike/lock.jpeg",
+      image: lockImg,
       rating: 4.8,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
@@ -198,7 +211,7 @@ export const bikeProducts = [
       category: "Exterior & Protection",
       subcategory: "Mudguards",
       brand: "MudShield",
-      image: "/src/assets/images/bike/mudguards.jpeg",
+      image: mudguardsImg,
       rating: 4.7,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
@@ -226,7 +239,7 @@ export const bikeProducts = [
       category: "Storage & Carrying",
       subcategory: "Racks",
       brand: "CargoMax",
-      image: "/src/assets/images/bike/rags.jpeg",
+      image: rackImg,
       rating: 4.8,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
@@ -240,7 +253,7 @@ export const bikeProducts = [
       category: "Maintenance & Tools",
       subcategory: "Pumps",
       brand: "AirPro",
-      image: "/src/assets/images/bike/pumps.png",
+      image: pumpImg,
       rating: 4.8,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
@@ -254,7 +267,7 @@ export const bikeProducts = [
       category: "Maintenance & Tools",
       subcategory: "Repair Kits",
       brand: "ToolPro",
-      image: "/src/assets/images/bike/repairkit.jpeg",
+      image: repairKitImg,
       rating: 4.9,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
@@ -268,7 +281,7 @@ export const bikeProducts = [
       category: "Maintenance & Tools",
       subcategory: "Lubricants",
       brand: "LubriMax",
-      image: "/src/assets/images/bike/lubricant.jpeg",
+      image: lubricantImg,
       rating: 4.7,
       inStock: true,
       compatibleBrands: ["Hero", "Honda", "Bajaj", "TVS", "Royal Enfield", "Harley-Davidson", "KTM", "Yamaha"],
